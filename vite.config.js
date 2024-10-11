@@ -15,4 +15,18 @@ export default defineConfig({
       },
     },
   },
+  build: {
+    minify: "terser", // Minification for production builds
+    sourcemap: true, // Enables source maps for easier debugging
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/styles/variables.scss";`, // SCSS variables and mixins
+      },
+    },
+  },
+  define: {
+    "process.env.VITE_API_URL": JSON.stringify(process.env.VITE_API_URL), // Environment variable for API URL
+  },
 });
