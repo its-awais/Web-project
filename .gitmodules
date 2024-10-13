@@ -1,3 +1,3 @@
 [submodule "my-remix-app"]
     path = my-remix-app
-    url = "https://github.com/its-awais/my-remix-app"
+    url = https://github.com/its-awais/my-remix-app
