@@ -11,7 +11,7 @@
     "server": " json-server --watch Quotes.json --port 3003"
   },
   "dependencies": {
-    "@remix-run/dev": "^2.12.1",
+    "@remix-run/dev": "^2.13.1",
     "bootstrap": "^5.3.3",
     "font-awesome": "^4.7.0",
     "json-server": "^1.0.0-beta.3",
