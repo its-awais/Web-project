@@ -1,0 +1,3 @@
+[submodule "my-remix-app"]
+    path = my-remix-app
+    url = http://github.com/its-awais/Web-project.git
