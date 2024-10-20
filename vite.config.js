@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import remix from "@remix-run/vite";
+import remix from "vite-plugin-remix";
 
 // https://vitejs.dev/config/
 export default defineConfig({
